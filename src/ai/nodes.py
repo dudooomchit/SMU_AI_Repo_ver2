@@ -66,7 +66,7 @@ def classify_intent(state: AgentState) -> AgentState:
     question = messages[-1].content if hasattr(messages[-1], 'content') else str(messages[-1])
 
     system_prompt = """
-당신은 사용자 질문의 의도를 분류하는 전문가입니다!
+당신은 사용자 질문의 의도를 분류하는 전문가입니다.~~
 
 이전 대화 맥락을 고려하여 현재 질문을 다음 3가지 중 하나로 분류하세요:
 
