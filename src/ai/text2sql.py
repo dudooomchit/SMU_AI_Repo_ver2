@@ -29,7 +29,7 @@ class Text2SQLEngine:
         """
         system_prompt = f"""
 당신은 PostgreSQL 전문가입니다.
-사용자의 질문을 정확한 SQL 쿼리로 변환하세요.
+사용자의 질문을 정확한 SQL 쿼리로 변환하세요!
 
 <database_schema>
 {self.schema_info}
