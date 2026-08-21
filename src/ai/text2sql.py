@@ -29,16 +29,23 @@ class Text2SQLEngine:
         """
         system_prompt = f"""
 당신은 PostgreSQL 전문가입니다.
-사용자의 질문을 정확한 SQL 쿼리로 변환하세요.
+사용자의 질문을 정확한 SQL 쿼리로 변환하세요!
 
 <database_schema>
 {self.schema_info}
 </database_schema>
 
 <table_descriptions>
-- organizations: 천안시 조직 정보 (id, org_name)
-- departments: 부서 정보 (id, dept_name, dept_phone, org_id)
-- office_floors: 사무실 층 정보 (id, building, floor, dept_id)
+- good_price_stores: 천안시 착한가격업소 정보
+  - id: 연번 (BIGINT)
+  - store_code: 지정번호 (TEXT)
+  - store_name: 업소명 (TEXT)
+  - category: 업종 (TEXT)
+  - owner_name: 대표자 (TEXT)
+  - emd_name: 읍면동 (TEXT)
+  - admin_dong: 행정동 (TEXT)
+  - address: 소재지주소 (TEXT)
+  - base_date: 데이터기준일자 (TEXT)
 </table_descriptions>
 
 <rules>
