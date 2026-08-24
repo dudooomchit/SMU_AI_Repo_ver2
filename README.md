@@ -45,10 +45,15 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 
 예상질문:
 1.천안시 착한가격업소 중 중식 업종의 소재지를 알려주세요.
+
 2.수강신청 일정은 언제인가요?
+
 3.장학금은 어떻게 신청하나요?
-4.신부동에 위치한 착한가격업소 상호명과 주소를 보여줘"
+
+4.신부동에 위치한 착한가격업소 상호명과 주소를 보여줘
+
 5.상명대학교 공과대학교학팀 전화번호를 문서에서 찾아와줘
+
 <img width="1880" height="1070" alt="image" src="https://github.com/user-attachments/assets/63297afe-6751-40a6-8e6b-c304e9be3ed0" />
 <img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/57ebb177-293f-4dd9-b4d4-85df6af754bc" />
 <img width="716" height="843" alt="image" src="https://github.com/user-attachments/assets/2d366127-0fed-414e-9d22-ecbe1b4b2518" />
