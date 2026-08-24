@@ -64,6 +64,10 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 
 
 
+### 챗봇 데모 실행 결과 (Demo Execution)
+
+사용자 질문의 의도를 분석하여 RAG 기반 문서 검색 또는 SQL 기반 DB 조회를 자동으로 수행한 6가지 핵심 데모 예시입니다.
+
 
 <img width="1880" height="1070" alt="image" src="https://github.com/user-attachments/assets/63297afe-6751-40a6-8e6b-c304e9be3ed0" />
 <img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/57ebb177-293f-4dd9-b4d4-85df6af754bc" />
