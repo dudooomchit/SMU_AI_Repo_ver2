@@ -38,4 +38,23 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 | **데이터기준일자** | 공공데이터 업데이트 일자 |
 ---
 
+팀 RAG 프로젝트: 상명대 새내기 도우미 챗봇
+
+팀 주제:신입생이 필요한 학사·학과·시설 정보를 쉽게 찾지 못하는 문제를 해결하기 위해, 
+대학생활 안내서와 착한가격업소 데이터를 학습한 챗봇을 제작하여 상명대 학생들의 정보 접근성을 대폭 개선
+
+예상질문:
+천안시 착한가격업소 중 중식 업종의 소재지를 알려주세요.
+수강신청 일정은 언제인가요?
+장학금은 어떻게 신청하나요?
+신부동에 위치한 착한가격업소 상호명과 주소를 보여줘"
+상명대학교 공과대학교학팀 전화번호를 문서에서 찾아와줘
+<img width="1880" height="1070" alt="image" src="https://github.com/user-attachments/assets/63297afe-6751-40a6-8e6b-c304e9be3ed0" />
+<img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/57ebb177-293f-4dd9-b4d4-85df6af754bc" />
+<img width="716" height="843" alt="image" src="https://github.com/user-attachments/assets/2d366127-0fed-414e-9d22-ecbe1b4b2518" />
+<img width="820" height="1098" alt="image" src="https://github.com/user-attachments/assets/6fe76198-e9de-4fc0-918d-a83066ba02e4" />
+<img width="656" height="661" alt="image" src="https://github.com/user-attachments/assets/5fc6f8b0-8057-4017-9825-ead02b541e00" />
+
+
+
 
