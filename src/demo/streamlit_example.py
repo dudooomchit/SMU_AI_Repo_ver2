@@ -90,7 +90,7 @@ def main():
         layout="wide"
     )
 
-    st.title("🏛️ 천안시 AI 에이전트 워크플로")
+    st.title("🏛️ 상명대 새내기 도우미 챗봇 (RAG & Text2SQL 에이전트)")
     st.markdown("---")
 
     # 사이드바 - 환경 변수 확인
@@ -118,14 +118,14 @@ def main():
         - "고마워"
 
         **벡터 검색 (예: 문서):**
-        - "천안시 주요 사업 계획은?"
-        - "천안시 복지 정책에 대해 알려주세요"
-        - "두정동 공영주차장은 언제 완공되나요?"
+        - "교내 장학금 종류의 갯수는?"
+        - "휴학 신청시 구비해야 할 서류는 무엇인가요?"
+        - "다전공이란 무엇인가요?"
 
         **DB 검색 (예: 정보):**
-        - "복지정책국에는 어떤 부서가 있나요?"
-        - "본관 1층에 위치한 부서들의 전화번호는?"
-        - "041-521-2080 이 전화번호 어디인가요?"
+        - "한식 업종의 행정동은?"
+        - "천안시 착한가격 업소 중 한식 업종은 몇개인가요?"
+        - "천안시 청룡각의 소재지주소는 무엇인가요?"
         """)
 
         if st.button("대화 초기화", type="secondary"):
@@ -173,7 +173,7 @@ def main():
                     display_workflow_info(result)
 
                     # 어시스턴트 메시지와 워크플로 정보 함께 저장
-                    st.session_state.messages.append({
+                    st.session_state.messages.append({ 
                         "role": "assistant",
                         "content": answer,
                         "workflow_info": result  # 워크플로 정보 저장
