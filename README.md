@@ -72,6 +72,7 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 <img width="716" height="843" alt="image" src="https://github.com/user-attachments/assets/2d366127-0fed-414e-9d22-ecbe1b4b2518" />
 <img width="820" height="1098" alt="image" src="https://github.com/user-attachments/assets/6fe76198-e9de-4fc0-918d-a83066ba02e4" />
 <img width="656" height="661" alt="image" src="https://github.com/user-attachments/assets/5fc6f8b0-8057-4017-9825-ead02b541e00" />
+<img width="833" height="1151" alt="image" src="https://github.com/user-attachments/assets/377aad94-994e-4556-8ed8-41f58b274c8d" />
 
 
 ### 4. 프로젝트 성과 및 기대 효과
