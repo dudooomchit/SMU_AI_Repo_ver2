@@ -39,3 +39,47 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 ---
 
 
+## 3. [4, 5일차] 2, 3일차 기반 데모 프로그램 제작
+
+## 프로젝트명: 상명대학교 AI 에이전트 (RAG & Text2SQL 에이전트)
+### 1. 프로젝트 배경 및 목적
+* **배경**: 대학 신입생은 학사 일정, 수강신청, 장학금 등 수백 쪽에 달하는 학사 가이드북 PDF에서 필요한 정보를 직접 찾기 어려워 정보 파편화 문제를 겪음.
+* **목적**: 
+  1. 비정형 문서(학교 학사 가이드북)를 위한 **RAG (Retrieval-Augmented Generation)**
+  2. 정형 데이터(천안시 착한가격업소 공공데이터)를 위한 **Text2SQL**
+  두 시스템을 **LangGraph 에이전틱 워크플로우**로 통합하여 신입생의 대학 생활 및 주변 생활 정보 접근성을 획기적으로 향상시킴.
+  3. 신입생이 학사 정보나 학교 주변 식당 정보를 일일이 찾아봐야 하는 불편함을 줄이기 위해, 
+대학 안내서와 착한가격업소 DB를 결합한 RAG 챗봇을 구축하여 상명대 학생들의 정보 접근성을 개선. 
+
+
+### 2. 예시 질문 리스트
+1) "천안시 착한가격업소 중 중식 업종의 소재지를 알려주세요." (Text2SQL)
+2) "수강신청 일정은 언제인가요?" (RAG)
+3) "장학금은 어떻게 신청하나요?" (RAG)
+4) "신부동에 위치한 착한가격업소 상호명과 주소를 보여줘" (Text2SQL)
+5) "상명대학교 공과대학교학팀 전화번호를 문서에서 찾아와줘" (RAG)
+6) "천안시 착한가격업소 중 한식 업종의 대표자를 정리해주세요." (Text2SQL)
+<img width="1291" height="1324" alt="image" src="https://github.com/user-attachments/assets/47831603-7480-4c39-b03e-1ec2da40a99d" />
+<img width="1279" height="1329" alt="image" src="https://github.com/user-attachments/assets/2a677b62-9c1b-487b-b687-41090f784e12" />
+<img width="1309" height="1329" alt="image" src="https://github.com/user-attachments/assets/bb99dfa5-2a74-4210-bdcb-0d8b47a69e0f" />
+<img width="1309" height="1348" alt="image" src="https://github.com/user-attachments/assets/e1a28dc5-f81a-4443-a582-747dfe6d6ed8" />
+<img width="1309" height="1330" alt="image" src="https://github.com/user-attachments/assets/f4ec046b-ec80-4c5f-8682-190027a012ae" />
+<img width="1306" height="1327" alt="image" src="https://github.com/user-attachments/assets/64c8e8cc-428b-4ed7-9703-97202ada611b" />
+
+
+
+### 3. 챗봇 데모 실행 결과 
+
+사용자 질문의 의도를 분석하여 RAG 기반 문서 검색 또는 SQL 기반 DB 조회를 자동으로 수행한 6가지 핵심 데모 예시입니다.
+
+
+
+### 4. 프로젝트 성과 및 기대 효과
+- 정확한 근거 기반 응답: 답변마다 출처 문서(파일명)와 정확한 데이터 기준을 함께 제시하여 챗봇의 환각(Hallucination) 방지.
+
+- 신입생 정보 접근성 향상: 복잡한 270쪽 분량 가이드북 검색 시간을 단축시키고 24시간 실시간 대화형 안내 구현.
+
+- 지역 데이터 결합: 단순 대학 정보를 넘어 천안시 착한가격업소 공공데이터를 결합해 학생들의 실생활 복지 정보까지 연계 확장.
+
+
+
