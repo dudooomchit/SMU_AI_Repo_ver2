@@ -59,6 +59,12 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 4) "신부동에 위치한 착한가격업소 상호명과 주소를 보여줘" (Text2SQL)
 5) "상명대학교 공과대학교학팀 전화번호를 문서에서 찾아와줘" (RAG)
 6) "천안시 착한가격업소 중 한식 업종의 대표자를 정리해주세요." (Text2SQL)
+
+
+### 3. 챗봇 데모 실행 결과 
+
+사용자 질문의 의도를 분석하여 RAG 기반 문서 검색 또는 SQL 기반 DB 조회를 자동으로 수행한 6가지 핵심 데모 예시입니다.
+
 <img width="1291" height="1324" alt="image" src="https://github.com/user-attachments/assets/47831603-7480-4c39-b03e-1ec2da40a99d" />
 <img width="1279" height="1329" alt="image" src="https://github.com/user-attachments/assets/2a677b62-9c1b-487b-b687-41090f784e12" />
 <img width="1309" height="1329" alt="image" src="https://github.com/user-attachments/assets/bb99dfa5-2a74-4210-bdcb-0d8b47a69e0f" />
@@ -68,9 +74,7 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 
 
 
-### 3. 챗봇 데모 실행 결과 
 
-사용자 질문의 의도를 분석하여 RAG 기반 문서 검색 또는 SQL 기반 DB 조회를 자동으로 수행한 6가지 핵심 데모 예시입니다.
 
 
 
