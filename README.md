@@ -59,6 +59,12 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 4) "신부동에 위치한 착한가격업소 상호명과 주소를 보여줘" (Text2SQL)
 5) "상명대학교 공과대학교학팀 전화번호를 문서에서 찾아와줘" (RAG)
 6) "천안시 착한가격업소 중 한식 업종의 대표자를 정리해주세요." (Text2SQL)
+<img width="1291" height="1324" alt="image" src="https://github.com/user-attachments/assets/47831603-7480-4c39-b03e-1ec2da40a99d" />
+<img width="1279" height="1329" alt="image" src="https://github.com/user-attachments/assets/2a677b62-9c1b-487b-b687-41090f784e12" />
+<img width="1309" height="1329" alt="image" src="https://github.com/user-attachments/assets/bb99dfa5-2a74-4210-bdcb-0d8b47a69e0f" />
+<img width="1309" height="1348" alt="image" src="https://github.com/user-attachments/assets/e1a28dc5-f81a-4443-a582-747dfe6d6ed8" />
+<img width="1309" height="1330" alt="image" src="https://github.com/user-attachments/assets/f4ec046b-ec80-4c5f-8682-190027a012ae" />
+<img width="1306" height="1327" alt="image" src="https://github.com/user-attachments/assets/64c8e8cc-428b-4ed7-9703-97202ada611b" />
 
 
 
@@ -66,13 +72,6 @@ CSV 파일의 구조화된 테이블 데이터를 PostgreSQL(Supabase) DB로 정
 
 사용자 질문의 의도를 분석하여 RAG 기반 문서 검색 또는 SQL 기반 DB 조회를 자동으로 수행한 6가지 핵심 데모 예시입니다.
 
-
-<img width="1880" height="1070" alt="image" src="https://github.com/user-attachments/assets/63297afe-6751-40a6-8e6b-c304e9be3ed0" />
-<img width="1923" height="682" alt="image" src="https://github.com/user-attachments/assets/57ebb177-293f-4dd9-b4d4-85df6af754bc" />
-<img width="716" height="843" alt="image" src="https://github.com/user-attachments/assets/2d366127-0fed-414e-9d22-ecbe1b4b2518" />
-<img width="820" height="1098" alt="image" src="https://github.com/user-attachments/assets/6fe76198-e9de-4fc0-918d-a83066ba02e4" />
-<img width="656" height="661" alt="image" src="https://github.com/user-attachments/assets/5fc6f8b0-8057-4017-9825-ead02b541e00" />
-<img width="833" height="1151" alt="image" src="https://github.com/user-attachments/assets/377aad94-994e-4556-8ed8-41f58b274c8d" />
 
 
 ### 4. 프로젝트 성과 및 기대 효과
